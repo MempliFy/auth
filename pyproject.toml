@@ -5,7 +5,12 @@ description = "Add your description here"
 authors = [
     { name = "hiraoku.shinichi", email = "s.hiraoku@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.115.4",
+    "uvicorn>=0.32.0",
+    "types-ujson>=5.10.0.20240515",
+    "ruff>=0.7.3",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
@@ -15,10 +20,21 @@ build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
-dev-dependencies = []
+dev-dependencies = [
+    "mypy>=1.9.0",
+]
 
 [tool.hatch.metadata]
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/auth"]
+
+[tool.mypy]
+plugins = []
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W"]
+ignore = ["E501"]
