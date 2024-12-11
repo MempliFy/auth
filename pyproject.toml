@@ -9,7 +9,7 @@ dependencies = [
     "fastapi>=0.115.4",
     "uvicorn>=0.32.0",
     "types-ujson>=5.10.0.20240515",
-    "ruff>=0.7.3",
+    "ruff>=0.8.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
