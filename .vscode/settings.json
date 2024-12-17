@@ -1,3 +1,18 @@
 {
-  "cSpell.words": ["fastapi"]
+  "cSpell.words": [
+    "anyio",
+    "colorama",
+    "exceptiongroup",
+    "fastapi",
+    "hiraoku",
+    "idna",
+    "mypy",
+    "pydantic",
+    "sdist",
+    "shinichi",
+    "sniffio",
+    "starlette",
+    "ujson",
+    "uvicorn"
+  ]
 }
