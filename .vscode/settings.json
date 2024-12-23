@@ -14,5 +14,7 @@
     "starlette",
     "ujson",
     "uvicorn"
-  ]
+  ],
+  "ruff.format.args": ["--config=pyproject.toml"],
+  "ruff.lint.args": ["--config=pyproject.toml"]
 }
