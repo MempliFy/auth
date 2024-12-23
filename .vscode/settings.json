@@ -16,5 +16,10 @@
     "uvicorn"
   ],
   "ruff.format.args": ["--config=pyproject.toml"],
-  "ruff.lint.args": ["--config=pyproject.toml"]
+  "ruff.lint.args": ["--config=pyproject.toml"],
+  "mypy-type-checker.args": [
+    "--ignore-missing-imports",
+    "--disallow-untyped-defs",
+    "--config-file=<file>"
+  ]
 }
