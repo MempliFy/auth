@@ -1,19 +1,25 @@
 {
   "cSpell.words": [
+    "aiosqlite",
     "anyio",
+    "aqlalchemy",
     "colorama",
     "exceptiongroup",
     "fastapi",
     "hiraoku",
     "idna",
     "mypy",
+    "pycache",
+    "pydanic",
     "pydantic",
     "sdist",
+    "sessionmaker",
     "shinichi",
     "sniffio",
     "starlette",
     "ujson",
-    "uvicorn"
+    "uvicorn",
+    "venv"
   ],
   "ruff.format.args": ["--config=pyproject.toml"],
   "ruff.lint.args": ["--config=pyproject.toml"],
