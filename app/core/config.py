@@ -12,6 +12,6 @@ class Settings(BaseSettings):
 
 settings = Settings()
 
-
+# Debug
 print(f"SECRET_KEY: {settings.SECRET_KEY}")
 print(f"DATABASE_URL: {settings.DATABASE_URL}")
